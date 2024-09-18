@@ -1,0 +1,6 @@
+version = "2"
+generators = ["go"]
+
+[[overrides]]
+prefixes = ["github.com/kevpar/test/ttrpcstress/protogogo"]
+generators = ["gogo"]

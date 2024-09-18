@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package type;
+
+option go_package = "github.com/kevpar/test/ttrpcstress/protogogo";
+
+message Payload {
+    uint32 value = 1;
+}
